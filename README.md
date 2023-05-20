@@ -11,7 +11,7 @@
 <img src="preview/menu-hobbies-responsive.png" width="360" height="640">
 <img src="preview/menu-portfolio-responsive.png" width="360" height="640">
 
-<img src="preview/contenido-portfolio.png" width="640" height="360">
+<img src="preview/contenido.png" width="640" height="360">
 
 
 
