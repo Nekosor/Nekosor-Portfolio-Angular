@@ -20,3 +20,40 @@ margin-right: 2%;
 .fa-download {
   margin-right: 5px;
 }
+
+.curriculum-color{
+
+  background-color: #518CC3;
+  color: white;
+}
+
+h1{
+  display:flex;
+  margin-top:25px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(10, 10, 10);
+ font-family: 'Roboto', sans-serif;
+  font-size:3em;
+}
+.btn
+{
+background-color: #518CC3;
+color:white;
+font-family: 'trebuchet ms', sans-serif;
+font-weight: 900;
+
+}
+@media screen and (max-width: 1000px) {
+  
+  h1{
+    font-size:2.7em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  
+  h1{
+    font-size:2em;
+  }
+}
