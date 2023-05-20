@@ -1,5 +1,25 @@
 # Nekosor
 
+<img src="preview/loadingscreenpng.png" width="640" height="360">
+
+<img src="preview/portfolio-hobbies.png" width="640" height="360">
+
+<img src="preview/menu-portfolio.png" width="640" height="360">
+
+<img src="preview/menu-hobbies.png" width="640" height="360">
+
+<img src="preview/menu-hobbies-responsive.png" width="360" height="640">
+<img src="preview/menu-portfolio-responsive.png" width="360" height="640">
+
+<img src="preview/contenido.png" width="640" height="360">
+
+
+
+
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
 ## Development server
