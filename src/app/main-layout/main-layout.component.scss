@@ -1,0 +1,5 @@
+.content {
+    min-height: calc(100vh - 56px); /* Ajusta el valor "56px" según la altura del header */
+    padding-bottom: 50px; /* Ajusta el valor "50px" según la altura del footer */
+    overflow-y: auto;
+}

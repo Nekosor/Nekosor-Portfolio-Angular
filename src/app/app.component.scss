@@ -1,0 +1,108 @@
+.split-screen {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+
+  .left, .right {
+    flex: 1;
+    position: relative;
+  }
+
+  .left {
+
+    background: url('/assets/img/portfolio-background.jpg') no-repeat center  ; 
+   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+
+    
+  }
+
+  .right {
+     
+       
+    background: url('/assets/img/hobbies-background.jpg') no-repeat center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    background-color: rgba(0, 0, 255, 0.5); /* Cambiar color y opacidad para la parte izquierda */
+
+  }
+
+.right::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ 
+  background-size: cover;
+  filter: blur(10px); /* Aplica un desenfoque gaussiano con un radio de 10px */
+  opacity: 1.5; /* Ajustar la opacidad*/
+  background-color: #2cafeb5d; /* Cambia el color y la opacidad */
+}
+
+
+.left::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ 
+  background-size: cover;
+  filter: blur(10px); /* Aplica un desenfoque gaussiano con un radio de 10px */
+  opacity: 1.5; /* Ajusta la opacidad */
+  background-color: #1C23C95d; /* Cambia el color y la opacidad  */
+}
+
+  .content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
+
+  .content img {
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content .hobbies-img{
+  width: 62%;
+  margin-left:20%;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+  }
+  .content h2 {
+    margin-top: 20px;
+    font-size:5em;
+    font-family: "Cutive Mono", Monospace;
+  }
+
+  .content a {
+    color: white;
+    text-decoration: none;    
+  }
+
+
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
