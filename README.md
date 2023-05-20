@@ -2,6 +2,17 @@
 
 <img src="preview/loadingscreenpng.png" width="640" height="360">
 
+<img src="preview/portfolio-hobbies.png" width="640" height="360">
+
+<img src="preview/menu-portfolio.png" width="640" height="360">
+
+<img src="preview/menu-hobbies.png" width="640" height="360">
+
+<img src="preview/menu-hobbies-responsive.png" width="360" height="640">
+<img src="preview/menu-portfolio-responsive.png" width="360" height="640">
+
+
+
 
 
 
