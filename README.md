@@ -1,6 +1,6 @@
 # Nekosor
 
-<img src="preview/loadingscreenpng.png" width="300" height="650">
+<img src="preview/loadingscreenpng.png" width="640" height="360">
 
 
 
